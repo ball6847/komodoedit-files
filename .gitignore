@@ -1,6 +1,6 @@
 *
 !.gitignore
-project-templates
-tools
-schemes
-templates
+!project-templates
+!tools
+!schemes
+!templates
