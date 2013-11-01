@@ -1,0 +1,22 @@
+{
+  "keyboard_shortcut": "", 
+  "name": "cp874 supports", 
+  "language": "JavaScript", 
+  "trigger_enabled": 1, 
+  "value": [
+    "try {", 
+    "    var file = (typeof komodo.koDoc == 'undefined') ? komodo.document : komodo.koDoc;    ", 
+    "} catch (e) {", 
+    "    return;", 
+    "}", 
+    "", 
+    "if (file.encoding.encoding_info.python_encoding_name == 'iso8859-1' && file.encoding.encoding_info.short_encoding_name == 'Latin-1') {", 
+    "    file.forceEncodingFromEncodingName('cp874');", 
+    "}"
+  ], 
+  "trigger": "trigger_postopen", 
+  "rank": 100, 
+  "version": "1.0.12", 
+  "async": 1, 
+  "type": "macro"
+}
