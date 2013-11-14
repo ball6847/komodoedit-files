@@ -8,7 +8,7 @@
   "value": [
     "git push -u %(ask:Remote:origin) %(ask:Branch:master)"
   ], 
-  "cwd": "%D", 
+  "cwd": "%p", 
   "version": "1.0.12", 
   "env": "", 
   "showParsedOutputList": 0, 

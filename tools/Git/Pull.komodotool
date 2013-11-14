@@ -13,6 +13,6 @@
   "env": "", 
   "showParsedOutputList": 0, 
   "type": "command", 
-  "cwd": "%D", 
+  "cwd": "%p", 
   "runIn": "command-output-window"
 }
